@@ -4,7 +4,7 @@ Vou fazer uma avaliação do teu notebook `Stroke_Prediction.ipynb` com base nos
 ### ✅ **1. Preprocessing**
 - **Normalização:** ✅ Aplicada (`StandardScaler`), o que é apropriado para redes neurais.
 - **Seleção de features:** ❌ Não há menção clara a técnicas de seleção de atributos. Todas as variáveis (exceto a `id`) parecem ser usadas.
-- **Transformações:** ✅ As variáveis categóricas são codificadas (`LabelEncoder`), mas podia-se considerar `OneHotEncoding` para evitar ordens artificiais.
+- **Transformações:** ✅ As variáveis categóricas são codificadas (`OneHotEncoding`), o que é a abordagem certa para redes neurais.
 
 🔍 **Sugestão:** Justificar a escolha das variáveis e incluir análise de correlação ou métodos automáticos de seleção (ex: `SelectKBest`, `RFE`).
 
